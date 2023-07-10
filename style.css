@@ -1,0 +1,82 @@
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 850px;
+
+}
+
+.title {
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px;
+}
+
+.content {
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: smaller;
+    padding-bottom: 20px;
+}
+
+.sedan {
+    background-color: hsl(31, 77%, 52%);
+
+}
+
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury {
+    background-color: hsl(179, 100%, 13%);
+}
+
+.img {
+    padding: 20% 0%;
+}
+
+.btn {
+    border-color: aliceblue;
+    background-color: hsl(0, 0%, 95%);
+    margin: 20% 0%;
+}
+
+.btn1 {
+    color: hsl(31, 77%, 52%);
+}
+
+.btn2 {
+    color: hsl(184, 100%, 22%);
+}
+
+.btn3 {
+    color: hsl(179, 100%, 13%);
+}
+
+.btn1:hover,
+.btn2:hover,
+.btn3:hover {
+    border-color: hsl(0, 0%, 95%);
+    color: hsl(0, 0%, 95%);
+}
